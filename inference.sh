@@ -1,5 +1,5 @@
 python inference.py \
-    --prompt "A striking mallard floats effortlessly on the sparkling pond." \
+    --prompt "A red duck floats effortlessly on the pond" \
     --condition "depth_midas" \
     --video_path "data/mallard-water.mp4" \
     --output_path "outputs/" \
@@ -8,5 +8,5 @@ python inference.py \
     --width 512 \
     --height 512 \
     --frame_rate 2 \
-    --version v10 \
+    --version v11 \
     # --is_long_video

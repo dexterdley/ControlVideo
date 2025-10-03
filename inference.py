@@ -18,6 +18,15 @@ from models.controlnet import ControlNetModel3D
 from models.RIFE.IFNet_HDv3 import IFNet
 
 
+# https://modelscope.cn/models/AI-ModelScope/stable-diffusion-v1-5/files #download stable-diffusion weights
+
+# Other controlnet checkpoints
+# huggingface-cli download lllyasviel/control_v11p_sd15_openpose --local-dir checkpoints/control_v11p_sd15_openpose
+# huggingface-cli download lllyasviel/control_v11p_sd15_softedge --local-dir checkpoints/control_v11p_sd15_softedge
+# huggingface-cli download lllyasviel/control_v11f1p_sd15_depth --local-dir checkpoints/control_v11f1p_sd15_depth
+
+
+
 device = "cuda"
 sd_path = "checkpoints/stable-diffusion-v1-5"
 inter_path = "checkpoints/flownet.pkl"
